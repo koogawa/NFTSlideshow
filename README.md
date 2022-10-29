@@ -1,2 +1,3 @@
 # NFTSlideshow
-web3 - NFT Slideshow app
+
+for [Tokyo web3 Hackathon](https://tokyo.akindo.io/)
