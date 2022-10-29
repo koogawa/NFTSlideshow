@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2124121B192794B0007943DF /* FSN_categories.m in Sources */ = {isa = PBXBuildFile; fileRef = 21241216192794B0007943DF /* FSN_categories.m */; };
+		2124121C192794B0007943DF /* FSNConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 21241218192794B0007943DF /* FSNConnection.m */; };
+		2124121D192794B0007943DF /* FSNData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2124121A192794B0007943DF /* FSNData.m */; };
+		215875DD191F7BD200CB4764 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 215875DC191F7BD200CB4764 /* Media.xcassets */; };
+		216A5BCF143841C80042E100 /* ConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 216A5BCE143841C80042E100 /* ConfigViewController.m */; };
+		216A5BD11438461E0042E100 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 216A5BD01438461E0042E100 /* MapKit.framework */; };
+		21792E6C192894DF0006767F /* MyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21792E6B192894DF0006767F /* MyScrollView.m */; };
+		219FD2E014246C8A00ED5797 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 219FD2DF14246C8A00ED5797 /* UIKit.framework */; };
+		219FD2E214246C8A00ED5797 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 219FD2E114246C8A00ED5797 /* Foundation.framework */; };
+		219FD2E414246C8A00ED5797 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 219FD2E314246C8A00ED5797 /* CoreGraphics.framework */; };
+		219FD2EA14246C8A00ED5797 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 219FD2E814246C8A00ED5797 /* InfoPlist.strings */; };
+		219FD2EC14246C8A00ED5797 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 219FD2EB14246C8A00ED5797 /* main.m */; };
+		219FD2F014246C8A00ED5797 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 219FD2EF14246C8A00ED5797 /* AppDelegate.m */; };
+		219FD2F614246C8A00ED5797 /* SlideShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 219FD2F514246C8A00ED5797 /* SlideShowViewController.m */; };
+		219FD3011424768900ED5797 /* UIAsyncImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 219FD3001424768900ED5797 /* UIAsyncImageView.m */; };
+		219FD3031424790A00ED5797 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 219FD3021424790A00ED5797 /* QuartzCore.framework */; };
+		21F670E514254D080014C6EB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F670E414254D080014C6EB /* CoreLocation.framework */; };
+		21F670E8142564410014C6EB /* ViewUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F670E7142564400014C6EB /* ViewUtil.m */; };
+		DCAED7441D8AB57C0077E452 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCAED7431D8AB57C0077E452 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		21241215192794B0007943DF /* FSN_categories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSN_categories.h; sourceTree = "<group>"; };
+		21241216192794B0007943DF /* FSN_categories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSN_categories.m; sourceTree = "<group>"; };
+		21241217192794B0007943DF /* FSNConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSNConnection.h; sourceTree = "<group>"; };
+		21241218192794B0007943DF /* FSNConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSNConnection.m; sourceTree = "<group>"; };
+		21241219192794B0007943DF /* FSNData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSNData.h; sourceTree = "<group>"; };
+		2124121A192794B0007943DF /* FSNData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSNData.m; sourceTree = "<group>"; };
+		215875DC191F7BD200CB4764 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = Resources/Media.xcassets; sourceTree = "<group>"; };
+		216A5BCD143841C80042E100 /* ConfigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigViewController.h; sourceTree = "<group>"; };
+		216A5BCE143841C80042E100 /* ConfigViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigViewController.m; sourceTree = "<group>"; };
+		216A5BD01438461E0042E100 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		21792E6A192894DF0006767F /* MyScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyScrollView.h; sourceTree = "<group>"; };
+		21792E6B192894DF0006767F /* MyScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyScrollView.m; sourceTree = "<group>"; };
+		219FD2DB14246C8A00ED5797 /* NFTSlideshow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NFTSlideshow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		219FD2DF14246C8A00ED5797 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		219FD2E114246C8A00ED5797 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		219FD2E314246C8A00ED5797 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		219FD2E714246C8A00ED5797 /* NFTSlideshow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NFTSlideshow-Info.plist"; sourceTree = "<group>"; };
+		219FD2E914246C8A00ED5797 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		219FD2EB14246C8A00ED5797 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		219FD2ED14246C8A00ED5797 /* NFTSlideshow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NFTSlideshow-Prefix.pch"; sourceTree = "<group>"; };
+		219FD2EE14246C8A00ED5797 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		219FD2EF14246C8A00ED5797 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		219FD2F414246C8A00ED5797 /* SlideShowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlideShowViewController.h; sourceTree = "<group>"; };
+		219FD2F514246C8A00ED5797 /* SlideShowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlideShowViewController.m; sourceTree = "<group>"; };
+		219FD2FF1424768900ED5797 /* UIAsyncImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAsyncImageView.h; sourceTree = "<group>"; };
+		219FD3001424768900ED5797 /* UIAsyncImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIAsyncImageView.m; sourceTree = "<group>"; };
+		219FD3021424790A00ED5797 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		21F670E414254D080014C6EB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		21F670E6142564400014C6EB /* ViewUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewUtil.h; sourceTree = "<group>"; };
+		21F670E7142564400014C6EB /* ViewUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewUtil.m; sourceTree = "<group>"; };
+		DCAED7431D8AB57C0077E452 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		219FD2D814246C8A00ED5797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				216A5BD11438461E0042E100 /* MapKit.framework in Frameworks */,
+				21F670E514254D080014C6EB /* CoreLocation.framework in Frameworks */,
+				219FD3031424790A00ED5797 /* QuartzCore.framework in Frameworks */,
+				219FD2E014246C8A00ED5797 /* UIKit.framework in Frameworks */,
+				219FD2E214246C8A00ED5797 /* Foundation.framework in Frameworks */,
+				219FD2E414246C8A00ED5797 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2124121319279496007943DF /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				219FD2FF1424768900ED5797 /* UIAsyncImageView.h */,
+				219FD3001424768900ED5797 /* UIAsyncImageView.m */,
+				21F670E6142564400014C6EB /* ViewUtil.h */,
+				21F670E7142564400014C6EB /* ViewUtil.m */,
+				21241214192794B0007943DF /* FSNetworking */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		21241214192794B0007943DF /* FSNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				21241215192794B0007943DF /* FSN_categories.h */,
+				21241216192794B0007943DF /* FSN_categories.m */,
+				21241217192794B0007943DF /* FSNConnection.h */,
+				21241218192794B0007943DF /* FSNConnection.m */,
+				21241219192794B0007943DF /* FSNData.h */,
+				2124121A192794B0007943DF /* FSNData.m */,
+			);
+			name = FSNetworking;
+			path = Lib/FSNetworking;
+			sourceTree = "<group>";
+		};
+		2124121E192797B4007943DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2124121F192797BD007943DF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				21792E6A192894DF0006767F /* MyScrollView.h */,
+				21792E6B192894DF0006767F /* MyScrollView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		21241220192797C6007943DF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				219FD2F414246C8A00ED5797 /* SlideShowViewController.h */,
+				219FD2F514246C8A00ED5797 /* SlideShowViewController.m */,
+				216A5BCD143841C80042E100 /* ConfigViewController.h */,
+				216A5BCE143841C80042E100 /* ConfigViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		219FD2D014246C8900ED5797 = {
+			isa = PBXGroup;
+			children = (
+				219FD2E514246C8A00ED5797 /* NFTSlideshow */,
+				219FD2DE14246C8A00ED5797 /* Frameworks */,
+				219FD2DC14246C8A00ED5797 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		219FD2DC14246C8A00ED5797 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				219FD2DB14246C8A00ED5797 /* NFTSlideshow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		219FD2DE14246C8A00ED5797 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				219FD2DF14246C8A00ED5797 /* UIKit.framework */,
+				219FD2E114246C8A00ED5797 /* Foundation.framework */,
+				216A5BD01438461E0042E100 /* MapKit.framework */,
+				219FD2E314246C8A00ED5797 /* CoreGraphics.framework */,
+				21F670E414254D080014C6EB /* CoreLocation.framework */,
+				219FD3021424790A00ED5797 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		219FD2E514246C8A00ED5797 /* NFTSlideshow */ = {
+			isa = PBXGroup;
+			children = (
+				2124121E192797B4007943DF /* Model */,
+				2124121F192797BD007943DF /* View */,
+				21241220192797C6007943DF /* Controller */,
+				219FD2EE14246C8A00ED5797 /* AppDelegate.h */,
+				219FD2EF14246C8A00ED5797 /* AppDelegate.m */,
+				2124121319279496007943DF /* Lib */,
+				219FD2E614246C8A00ED5797 /* Supporting Files */,
+			);
+			path = NFTSlideshow;
+			sourceTree = "<group>";
+		};
+		219FD2E614246C8A00ED5797 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				215875DC191F7BD200CB4764 /* Media.xcassets */,
+				219FD2E714246C8A00ED5797 /* NFTSlideshow-Info.plist */,
+				219FD2E814246C8A00ED5797 /* InfoPlist.strings */,
+				219FD2EB14246C8A00ED5797 /* main.m */,
+				DCAED7431D8AB57C0077E452 /* LaunchScreen.storyboard */,
+				219FD2ED14246C8A00ED5797 /* NFTSlideshow-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		219FD2DA14246C8A00ED5797 /* NFTSlideshow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 219FD2FC14246C8A00ED5797 /* Build configuration list for PBXNativeTarget "NFTSlideshow" */;
+			buildPhases = (
+				219FD2D714246C8A00ED5797 /* Sources */,
+				219FD2D814246C8A00ED5797 /* Frameworks */,
+				219FD2D914246C8A00ED5797 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NFTSlideshow;
+			productName = PhotoSquare;
+			productReference = 219FD2DB14246C8A00ED5797 /* NFTSlideshow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		219FD2D214246C8900ED5797 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					219FD2DA14246C8A00ED5797 = {
+						DevelopmentTeam = 4SA8237VUA;
+					};
+				};
+			};
+			buildConfigurationList = 219FD2D514246C8900ED5797 /* Build configuration list for PBXProject "NFTSlideshow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 219FD2D014246C8900ED5797;
+			productRefGroup = 219FD2DC14246C8A00ED5797 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				219FD2DA14246C8A00ED5797 /* NFTSlideshow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		219FD2D914246C8A00ED5797 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCAED7441D8AB57C0077E452 /* LaunchScreen.storyboard in Resources */,
+				219FD2EA14246C8A00ED5797 /* InfoPlist.strings in Resources */,
+				215875DD191F7BD200CB4764 /* Media.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		219FD2D714246C8A00ED5797 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219FD2EC14246C8A00ED5797 /* main.m in Sources */,
+				219FD2F014246C8A00ED5797 /* AppDelegate.m in Sources */,
+				21792E6C192894DF0006767F /* MyScrollView.m in Sources */,
+				219FD2F614246C8A00ED5797 /* SlideShowViewController.m in Sources */,
+				2124121D192794B0007943DF /* FSNData.m in Sources */,
+				2124121C192794B0007943DF /* FSNConnection.m in Sources */,
+				219FD3011424768900ED5797 /* UIAsyncImageView.m in Sources */,
+				21F670E8142564410014C6EB /* ViewUtil.m in Sources */,
+				216A5BCF143841C80042E100 /* ConfigViewController.m in Sources */,
+				2124121B192794B0007943DF /* FSN_categories.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		219FD2E814246C8A00ED5797 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				219FD2E914246C8A00ED5797 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		219FD2FA14246C8A00ED5797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		219FD2FB14246C8A00ED5797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		219FD2FD14246C8A00ED5797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4SA8237VUA;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NFTSlideshow/NFTSlideshow-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				INFOPLIST_FILE = "NFTSlideshow/NFTSlideshow-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Myapp.NFTSlideshow;
+				PRODUCT_NAME = NFTSlideshow;
+				PROVISIONING_PROFILE = "be8d618a-4489-42d2-9be8-e2a43b72a0d6";
+				PROVISIONING_PROFILE_SPECIFIER = Development;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		219FD2FE14246C8A00ED5797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Kosuke Ogawa (4SA8237VUA)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Kosuke Ogawa (4SA8237VUA)";
+				DEVELOPMENT_TEAM = 4SA8237VUA;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NFTSlideshow/NFTSlideshow-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "NFTSlideshow/NFTSlideshow-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Myapp.NFTSlideshow;
+				PRODUCT_NAME = NFTSlideshow;
+				PROVISIONING_PROFILE = "4ba10a52-78ef-4a77-8a97-896855d16b41";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "EA307324-F33B-480D-9A5B-E0BC1E2F372F";
+				PROVISIONING_PROFILE_SPECIFIER = Distribution;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		219FD2D514246C8900ED5797 /* Build configuration list for PBXProject "NFTSlideshow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				219FD2FA14246C8A00ED5797 /* Debug */,
+				219FD2FB14246C8A00ED5797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		219FD2FC14246C8A00ED5797 /* Build configuration list for PBXNativeTarget "NFTSlideshow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				219FD2FD14246C8A00ED5797 /* Debug */,
+				219FD2FE14246C8A00ED5797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 219FD2D214246C8900ED5797 /* Project object */;
+}

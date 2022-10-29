@@ -1,0 +1,26 @@
+//
+// Prefix header for all source files of the 'NFTSlideshow' target in the 'NFTSlideshow' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iPhone SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+#define IMAGE_TAG       20221029
+
+#define PLAY_INTERVAL   3.0
+
+#ifdef DEBUG
+# define LOG(...) NSLog(__VA_ARGS__)
+# define LOG_CURRENT_METHOD NSLog(@"%s", __func__)
+#else
+# define LOG(...) ;
+# define LOG_CURRENT_METHOD ;
+#endif
